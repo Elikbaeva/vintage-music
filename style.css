@@ -89,5 +89,9 @@ section {
   top: 105px;
   left: 119px;
   font-size: 36px;
+  font-family: 'History Pro';
   font-weight: 400;
+}
+.music{
+    background: #D03D29;
 }
