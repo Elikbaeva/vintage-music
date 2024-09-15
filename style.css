@@ -1,3 +1,4 @@
+
 html,
 body {
   height: 100%;
@@ -50,7 +51,7 @@ body {
   font-family: "Manrope", arial, sans-serif;
 }
 .container {
-  max-width: 1325px;
+  max-width: 1480px;
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
@@ -83,6 +84,10 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+}
 .header_tit {
   max-width: 796px;
   height: 36px;
@@ -97,7 +102,7 @@ section {
   background: #d03d29;
 }
 .strip {
-  width: 796px;
+  max-width: 796px;
   height: 1px;
   margin-bottom: 120px;
   background: #fff;
@@ -110,7 +115,7 @@ section {
   font-size: 60px;
 }
 .header_text {
-  width: 621px;
+  max-width: 621px;
   height: 96px;
   font-size: 20px;
   color: #fff;
@@ -121,24 +126,39 @@ section {
 }
 
 .img {
-  width: 172.47px;
+  max-width: 172.47px;
   height: 277.92px;
-  margin-top: 60px;
+  margin-top: 560px;
+
+}
+.img_head{
+  max-width: 172.47px;
+  height: 277.92px;
+  margin-top: 270px;
 }
 .header_img {
-  width: 405px;
+  max-width: 405px;
 }
 .p {
-  font-family: History Pro;
+  font-family: 'History Pro', sans-serif;
   font-size: 32px;
   font-weight: 400;
-  width: 317px;
+  max-width: 317px;
   height: 32px;
   color: #d03d29;
   margin-top: -80px;
-  margin-left: 25%;
+  margin-left: 20%;
 }
 .head_img {
   max-width: 490px;
   
+}
+@font-face {
+	font-family: 'HistoryPro-Two';
+	src: url('../fonts/historypro-two.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/historypro-two.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/historypro-two.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/historypro-two.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/historypro-two.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/historypro-two.svg#historypro-two') format('svg'); /* Chrome < 4, Legacy iOS */
 }
