@@ -211,30 +211,94 @@ section {
   font-size: 25px;
   color: #fff;
 }
-.date{
+.date {
   font-size: 20px;
   color: #fff;
   margin-left: 20px;
 }
-.events_day{
+.events_day {
   margin-bottom: 60px;
 }
-.even_icon{
+.even_icon {
   width: 32px;
   height: 32px;
   margin-top: 25px;
 }
-.cart_img{
+.cart_img {
   max-width: 390px;
   overflow: hidden;
   border-radius: 50px;
   height: 560px;
 }
 
-.tv{
+.tv {
   height: 1000px;
 }
-.tv_excpect{
+.tv_excpect {
   max-width: 691px;
-  margin-left: 50%;
+  margin-left: 55%;
+  overflow: hidden;
+  border-radius: 50% 0 0 0;
+}
+.tv_tit {
+  font-family: History Pro;
+  font-size: 60px;
+  font-weight: 400;
+}
+.tv_txt {
+  max-width: 1450px;
+  margin-top: -47px;
+}
+.simply {
+  max-width: 791px;
+  margin-top: -100px;
+}
+.lorem {
+  background: #000;
+  margin-top: -70px;
+  height: 1200px;
+}
+.lorem_tit {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.lorem_txt{
+  color: #fff;
+  font-size: 24px;
+  max-width: 642px;
+  margin-bottom: 80px;
+  line-height: 29px;
+}
+.simply_text{
+  margin-top: 15%;
+}
+.lorem_button{
+  max-width: 130px;
+height: 45px;
+border-radius: 24px;
+border: solid 2px #fff;
+}
+.qwerty{
+  margin-top: -70px;
+}
+.v{
+  max-width: 292px;
+  margin-top: -900px;
+  margin-left: 300px;
+}
+.n{
+  max-width: 224px;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+.a{
+  max-width: 254px;
+  margin-left: 180px;
+}
+.e{
+  max-width: 165px;
+  margin-top: -20px;
+  margin-left: 270px;
 }
