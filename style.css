@@ -1,4 +1,3 @@
-
 html,
 body {
   height: 100%;
@@ -84,7 +83,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
 }
@@ -108,7 +107,7 @@ section {
   background: #fff;
 }
 .header_txt {
-  max-width: 928px;
+  width: 928px;
   font-family: "History Pro";
   color: #fff;
   margin-bottom: 50px;
@@ -129,9 +128,8 @@ section {
   max-width: 172.47px;
   height: 277.92px;
   margin-top: 560px;
-
 }
-.img_head{
+.img_head {
   max-width: 172.47px;
   height: 277.92px;
   margin-top: 270px;
@@ -140,25 +138,95 @@ section {
   max-width: 405px;
 }
 .p {
-  font-family: 'History Pro', sans-serif;
+  font-family: "History Pro", sans-serif;
   font-size: 32px;
   font-weight: 400;
   max-width: 317px;
   height: 32px;
   color: #d03d29;
   margin-top: -80px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .head_img {
   max-width: 490px;
-  
 }
 @font-face {
-	font-family: 'HistoryPro-Two';
-	src: url('../fonts/historypro-two.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/historypro-two.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/historypro-two.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/historypro-two.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/historypro-two.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/historypro-two.svg#historypro-two') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-family: "HistoryPro-Two";
+  src: url("../fonts/historypro-two.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/historypro-two.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/historypro-two.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/historypro-two.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/historypro-two.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/historypro-two.svg#historypro-two")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+.afisha {
+  margin-top: -10%;
+}
+.afisha_tit {
+  color: #fff;
+  font-family: "History Pro", sans-serif;
+  margin: -10% 40% 0;
+  font-size: 64px;
+}
+.black {
+  background: url(./img/Rectangle\ 27.jpg);
+}
+.group {
+  max-width: 862px;
+}
+.vintage {
+  width: 500px;
+}
+.images {
+  display: flex;
+}
+.excerpt {
+  margin-top: -20%;
+}
+.events {
+  background: #ae0000;
+}
+.events_tit {
+  font-family: History Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.day {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+}
+.date{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+.events_day{
+  margin-bottom: 60px;
+}
+.even_icon{
+  width: 32px;
+  height: 32px;
+  margin-top: 25px;
+}
+.cart_img{
+  max-width: 390px;
+  overflow: hidden;
+  border-radius: 50px;
+  height: 560px;
 }
