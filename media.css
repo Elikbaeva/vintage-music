@@ -1,0 +1,18 @@
+@media screen and (max-width: 1500px) {
+     .header_txt{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .header_tit{
+        line-height: 50px;
+    }
+    .strip{
+        margin-top: 60px;
+    }
+    
+}
+@media screen and (max-width: 1500px) {
+    .head_img{
+        flex-wrap: wrap;
+    }
+}

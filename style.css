@@ -107,7 +107,7 @@ section {
   background: #fff;
 }
 .header_txt {
-  width: 928px;
+  max-width: 928px;
   font-family: "History Pro";
   color: #fff;
   margin-bottom: 50px;
@@ -136,6 +136,7 @@ section {
 }
 .header_img {
   max-width: 405px;
+  cursor: pointer;
 }
 .p {
   font-family: "History Pro", sans-serif;
@@ -206,10 +207,17 @@ section {
   border: 1px solid white;
   margin: 10px;
   display: flex;
+  cursor: pointer;
+  transition: 0.3s;
   justify-content: center;
   align-items: center;
   font-size: 25px;
   color: #fff;
+}
+.day:hover{
+  background: #fff;
+  color: #ae0000;
+  transform: scale(1.1);
 }
 .date {
   font-size: 20px;
@@ -221,8 +229,12 @@ section {
 }
 .even_icon {
   width: 32px;
+  cursor: pointer;
   height: 32px;
   margin-top: 25px;
+}
+.even_icon:hover{
+  transform: scale(1.1);
 }
 .cart_img {
   max-width: 390px;
@@ -244,6 +256,7 @@ section {
   font-family: History Pro;
   font-size: 60px;
   font-weight: 400;
+  margin-bottom: 90px;
 }
 .tv_txt {
   max-width: 1450px;
@@ -256,7 +269,7 @@ section {
 .lorem {
   background: #000;
   margin-top: -70px;
-  height: 1200px;
+  height: 1150px;
 }
 .lorem_tit {
   font-size: 40px;
@@ -264,41 +277,204 @@ section {
   color: #fff;
   margin-bottom: 50px;
 }
-.lorem_txt{
+.lorem_txt {
   color: #fff;
   font-size: 24px;
   max-width: 642px;
   margin-bottom: 80px;
   line-height: 29px;
 }
-.simply_text{
-  margin-top: 15%;
+.simply_text {
+  margin-top: 20%;
 }
-.lorem_button{
+.lorem_button {
   max-width: 130px;
-height: 45px;
-border-radius: 24px;
-border: solid 2px #fff;
+  cursor: pointer;
+  height: 45px;
+  transition: 0.3s;
+  border-radius: 24px;
+  border: solid 2px #fff;
 }
-.qwerty{
-  margin-top: -70px;
+.lorem_button:hover{
+  transform: scale(1.1);
 }
-.v{
+.v {
   max-width: 292px;
   margin-top: -900px;
   margin-left: 300px;
 }
-.n{
+.n {
   max-width: 224px;
   margin-top: -200px;
   margin-left: 200px;
 }
-.a{
+.a {
   max-width: 254px;
   margin-left: 180px;
 }
-.e{
+.e {
   max-width: 165px;
   margin-top: -20px;
   margin-left: 270px;
+}
+.g {
+  max-width: 216px;
+  margin-top: -210px;
+  margin-left: 460px;
+}
+.t {
+  max-width: 234px;
+  margin-top: -570px;
+  margin-left: 450px;
+}
+.mask {
+  max-width: 365px;
+  margin-top: -550px;
+  margin-left: 37%;
+}
+.big_photo {
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+.s_photo {
+  max-width: 230px;
+}
+.small_photo {
+  display: flex;
+  margin-bottom: 40px;
+  gap: 25px;
+}
+.photo_tit {
+  font-family: Montserrat;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.photo_txt {
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.wedding {
+  width: 318px;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 80px;
+  border : solid 2px #D03D29;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.wedding:hover{
+  background: #D03D29;
+  color: #fff;
+  transform: scale(1.1)
+}
+.members_top{
+  font-family: Montserrat;
+font-size: 48px;
+font-weight: 600;
+line-height: 58.51px;
+max-width: 1447px;
+margin-bottom: 50px;
+}
+.mem_cart{
+  max-width: 409px;
+  cursor: pointer;
+  height: 565px;
+  transition: 0.3s;
+}
+.mem_cart:hover{
+  box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06)
+}
+.members_carts{
+  display: flex;
+  gap: 10px;
+}
+.mem_tit{
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+color: #fff;
+margin-left: 30px;
+margin-top: -200px;
+max-width: 293px;
+margin-bottom: 30px;
+}
+.mem_txt{
+  max-width: 204px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.mem_text{
+  margin-left: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bottom{
+  margin-top: 45px;
+}
+.top{
+  margin-top: -45px;
+}
+.lorem_icon{
+  width: 68px;
+  margin-left: 25px;
+}
+
+.lorem_photo{
+  border: solid 1px #000;
+  margin-left: 43%;
+}
+.photo_icon{
+  max-width: 68px;
+  margin-left: 25px;
+}
+.video_tv{
+  max-width: 378px;
+}
+.videos_tv{
+  display: flex;
+  gap: 15px;
+}
+.vid{
+  max-width: 278px;
+}
+.tv_video{
+  max-width: 878px;
+  margin-top: -560px;
+  margin-left: 50px;
+}
+.lorem_imsup{
+  max-width: 452px;
+  margin-top: -600px;
+}
+.imsup_tit{
+  font-family: History Pro;
+font-size: 50px;
+font-weight: 400;
+line-height: 60px;
+color: #fff;
+margin-top: -560px;
+margin-left: 35px;
+margin-bottom: 30px;
+}
+.imsup_txt{
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.26px;
+color: #fff;
+max-width: 467px;
+padding: 20px;
 }
