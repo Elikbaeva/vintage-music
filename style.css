@@ -486,13 +486,88 @@ section {
   max-width: 192px;
   margin-bottom: 30px;
 }
-.cart__tit{
+.cart__tit {
   font-family: Montserrat;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #fff;
+}
+.card {
+  margin: 0 0 30px 30px;
+}
+.card_icon {
+  max-width: 55px;
+  margin-top: -30px;
+  margin-right: 30px;
+}
+.prices_top {
+  max-width: 1523px;
+  font-family: History Pro;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.prices{
+  background: #000;
+}
+.prices__top{
+  font-family: Montserrat;
+font-size: 32px;
+font-weight: 500;
+line-height: 39.01px;
+text-align: left;
+color: #fff;
+text-align: center;
+margin-bottom: 40px;
+}
+.prices_img{
+  max-width: 521px;
+  overflow: hidden;
+  border-radius: 35px;
+  margin-bottom: 30px;
+}
+.prices_carts{
+  display: flex;
+  gap: 30px;
+}
+.price_button{
+  max-width: 308px;
+  height: 60px;
+  border-radius: 42px;
+  background: #363231;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-bottom: 25px;
+}
+.price_txt{
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+color: #fff;
+margin-left: 17%;
+}
+.price_icon{
+  max-width: 55px;
+}
+.prices_tit{
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+text-align: left;
 color: #fff;
 }
-.card{
-  margin:0 0 30px  30px;
+.prices_txt{
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+color: #fff;
 }

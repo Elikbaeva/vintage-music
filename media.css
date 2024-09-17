@@ -15,6 +15,13 @@
     .head_img{
         display: none;
     }
+    .mask{
+        display: none;
+
+    }
+    .letters{
+        margin-bottom: 500px;
+    }
 }
 @media screen and (max-width: 1230px){
     .afisha{
@@ -54,7 +61,5 @@
     .carts{
         display: flex;
     }
-    .letters{
-        max-width: 400px;
-      }
+    
 }
