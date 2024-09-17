@@ -510,30 +510,30 @@ section {
   color: #fff;
   margin-bottom: 40px;
 }
-.prices{
+.prices {
   background: #000;
 }
-.prices__top{
+.prices__top {
   font-family: Montserrat;
-font-size: 32px;
-font-weight: 500;
-line-height: 39.01px;
-text-align: left;
-color: #fff;
-text-align: center;
-margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.prices_img{
+.prices_img {
   max-width: 521px;
   overflow: hidden;
   border-radius: 35px;
   margin-bottom: 30px;
 }
-.prices_carts{
+.prices_carts {
   display: flex;
   gap: 30px;
 }
-.price_button{
+.price_button {
   max-width: 308px;
   height: 60px;
   border-radius: 42px;
@@ -543,31 +543,110 @@ margin-bottom: 40px;
   margin-left: 15%;
   margin-bottom: 25px;
 }
-.price_txt{
+.price_txt {
   font-family: Montserrat;
-font-size: 20px;
-font-weight: 500;
-line-height: 24.38px;
-text-align: left;
-color: #fff;
-margin-left: 17%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  color: #fff;
+  margin-left: 17%;
 }
-.price_icon{
+.price_icon {
   max-width: 55px;
 }
-.prices_tit{
+.prices_tit {
   font-family: Montserrat;
-font-size: 24px;
-font-weight: 600;
-line-height: 29.26px;
-text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+  color: #fff;
+}
+.prices_txt {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer {
+  background: #000;
+}
+.footer_tit {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.footer_txt {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: left;
+  color: #fff;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+.footer_text {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.button_footer{
+  max-width: 385px;
+height: 85px;
+top: 10134px;
+left: 120px;
+gap: 0px;
+border-radius: 42.5px;
+background: #323232;
+font-size: 20px;
 color: #fff;
 }
-.prices_txt{
+.red{
+  background: #D03D29;
+  transition: 0.3s;
+}
+.red:hover{
+  background: #fff;
+  color: #D03D29;
+}
+.footer_button{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.footer_icon{
+  max-width: 24px;
+  cursor: pointer;
+}
+.footer_text{
   font-family: Montserrat;
 font-size: 20px;
-font-weight: 500;
+font-weight: 400;
 line-height: 24.38px;
-text-align: left;
 color: #fff;
+
+}
+.footer_icons{
+  display: flex;
+  gap: 5px;
+}
+.footer_right{
+  max-width: 1200px;
+}
+.footer_all{
+  display: flex;
+  gap: 200px;
+}
+.footer_w{
+  margin-top: -1000px;
 }

@@ -22,6 +22,12 @@
     .letters{
         margin-bottom: 500px;
     }
+    .s_photo{
+        max-width: 450px;
+    }
+    .afisha_tit{
+        display: none;
+    }
 }
 @media screen and (max-width: 1230px){
     .afisha{
@@ -61,5 +67,13 @@
     .carts{
         display: flex;
     }
-    
+    .prices_carts{
+        flex-wrap: wrap;
+    }
+    .footer_all{
+        flex-wrap: wrap;
+    }
+    .footer_button{
+        flex-wrap: wrap;
+    }
 }
