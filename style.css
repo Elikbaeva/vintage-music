@@ -61,14 +61,6 @@ body {
   font-family: "Manrope", arial, sans-serif;
 }
 
-.container {
-  max-width: 1480px;
-  width: 100%;
-  min-width: 320px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 input,
 button,
 textarea {
@@ -92,7 +84,11 @@ input[type="checkbox"] {
 }
 
 section {
-  padding: 100px 0;
+  padding: 100px 10px;
+  max-width: 1480px;
+  width: 100%;
+  min-width: 320px;
+
 }
 
 .flex {
