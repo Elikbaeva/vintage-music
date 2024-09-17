@@ -1,79 +1,117 @@
 @media screen and (max-width: 1500px) {
-     .header_txt{
+    .header_txt {
         font-size: 45px;
         line-height: 50px;
     }
-    .header_tit{
+
+    .header_tit {
         line-height: 50px;
     }
-    .strip{
+
+    .strip {
         margin-top: 60px;
     }
-    
+
 }
+
 @media screen and (max-width: 900px) {
-    .head_img{
+    .head_img {
         display: none;
     }
-    .mask{
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mask {
         display: none;
 
     }
-    .letters{
+
+    .letters {
         margin-bottom: 500px;
     }
-    .s_photo{
-        max-width: 450px;
-    }
-    .afisha_tit{
-        display: none;
-    }
 }
-@media screen and (max-width: 1230px){
-    .afisha{
+
+@media screen and (max-width: 1230px) {
+    .afisha {
         display: none;
+
     }
-    .members_carts{
+
+    .members_carts {
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
-    .top{
+    .members_top{
+        text-align: center;
+    }
+
+    .top {
         margin-top: 30px;
     }
-    .small_photo{
+
+    .small_photo {
         flex-wrap: wrap;
     }
-    .afisha_tit{
-        margin-top: 100px;
+
+    .afisha_tit {
+        margin-top: 200px;
+        margin-bottom: -200px;
     }
-    .events_tit{
+
+    .events_tit {
         line-height: 55px;
     }
-    .excerpt{
+
+    .move {
+        margin-top: 200px;
+    }
+
+    .videos_tv {
+        margin-bottom: 250px;
+    }
+
+    .excerpt {
         display: none;
     }
-    .cart_img{
+
+    .cart_img {
         overflow: hidden;
         border-radius: 50px;
     }
-    .carts{
+
+    .carts {
         gap: 20px;
     }
-    .qwerty{
+
+    .qwerty {
         display: none;
     }
-    .lorem_photo{
+
+    .lorem_photo {
         margin-bottom: 40px;
     }
-    .carts{
+    .lorem_imsup{
+        margin: 0 auto;
+    }
+    .photo_right{
+        margin: 0 auto;
+    }
+
+    .carts {
         display: flex;
+        justify-content: center;
+    }
+    .tv_tit{
+        margin-bottom: 0;
     }
     .prices_carts{
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
-    .footer_all{
-        flex-wrap: wrap;
-    }
-    .footer_button{
-        flex-wrap: wrap;
-    }
+
 }
