@@ -104,6 +104,7 @@
     .carts {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .tv_tit{
         margin-bottom: 0;
@@ -113,5 +114,20 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .footer_all{
+        flex-wrap: wrap;
+    }
+    
+    .vin_black{
+        display: none;
+    }
+    .vintage_img{
+        display: none;
+    }
+    .lorem_imsup{
+        display: none;
+    }
+    .tv_video{
+        margin-top: -650px;
+    }
 }

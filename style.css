@@ -62,7 +62,7 @@ body {
 }
 
 .container {
-  max-width: 1480px;
+  max-width: 1680px;
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
@@ -119,6 +119,7 @@ section {
 
 .music {
   background: #d03d29;
+  height: 1030px;
 }
 
 .strip {
@@ -133,7 +134,7 @@ section {
   font-family: "History Pro";
   color: #fff;
   margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .header_text {
@@ -177,21 +178,20 @@ section {
 
 .head_img {
   max-width: 490px;
+  margin-left: 135px;
 }
-
 @font-face {
   font-family: "HistoryPro-Two";
   src: url("../fonts/historypro-two.eot");
   /* IE 9 Compatibility Mode */
   src: url("../fonts/historypro-two.eot?#iefix") format("embedded-opentype"),
-    /* IE < 9 */
-    url("../fonts/historypro-two.woff2") format("woff2"),
-    /* Super Modern Browsers */
-    url("../fonts/historypro-two.woff") format("woff"),
+    /* IE < 9 */ url("../fonts/historypro-two.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/historypro-two.woff")
+      format("woff"),
     /* Firefox >= 3.6, any other modern browser */
-    url("../fonts/historypro-two.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    url("../fonts/historypro-two.svg#historypro-two") format("svg");
+      url("../fonts/historypro-two.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/historypro-two.svg#historypro-two")
+      format("svg");
   /* Chrome < 4, Legacy iOS */
 }
 
@@ -207,17 +207,24 @@ section {
 }
 
 .black {
-  background: url(./img/Rectangle\ 27.jpg);
+  background: #000;
+  height: 1360px;
 }
 
 .group {
-  max-width: 862px;
+  max-width: 802px;
 }
-
+.hand {
+  max-width: 172px;
+  margin-top: 100px;
+}
 .vintage {
-  width: 500px;
+  width: 600px;
+  margin-top: -30px;
 }
-
+.second {
+  margin-top: 300px;
+}
 .images {
   display: flex;
 }
@@ -287,7 +294,7 @@ section {
 
 .cart_img {
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   overflow: hidden;
   border-radius: 50px;
 }
@@ -298,7 +305,9 @@ section {
   overflow: hidden;
   border-radius: 50% 0 0 0;
 }
-
+.tv {
+  height: 1050px;
+}
 .tv_tit {
   line-height: normal;
   font-family: History Pro;
@@ -314,12 +323,16 @@ section {
 
 .simply {
   max-width: 791px;
+  margin-top: -100px;
 }
 
 .lorem {
   background: #000;
+  height: 1150px;
 }
-
+.photo__right {
+  margin-top: -130%;
+}
 .lorem_tit {
   font-size: 40px;
   font-weight: 600;
@@ -346,6 +359,7 @@ section {
   transition: 0.3s;
   border-radius: 24px;
   border: solid 2px #fff;
+  margin-left: 25px;
 }
 
 .lorem_button:hover {
@@ -427,6 +441,7 @@ section {
 .wedding {
   width: 318px;
   cursor: pointer;
+  margin-left: 25%;
   transition: 0.3s;
   height: 80px;
   border: solid 2px #d03d29;
@@ -466,7 +481,13 @@ section {
   display: flex;
   gap: 10px;
 }
-
+.carts {
+  display: flex;
+  gap: 30px;
+}
+.three {
+  margin-top: -130px;
+}
 .mem_tit {
   font-family: Montserrat;
   font-size: 24px;
@@ -520,7 +541,6 @@ section {
 }
 
 .video_tv {
-  max-width: 378px;
 }
 
 .videos_tv {
@@ -533,13 +553,18 @@ section {
 }
 
 .tv_video {
-  max-width: 878px;
-  margin-top: -560px;
+  max-width: 658px;
+  margin-top: -420px;
   margin-left: 50px;
 }
-
+.imsup_lorem {
+  display: flex;
+  gap: 100px;
+}
 .lorem_imsup {
-  max-width: 452px;
+  max-width: 552px;
+  margin-left: 60%;
+  margin-top: -55%;
 }
 
 .imsup_tit {
@@ -548,11 +573,13 @@ section {
   font-weight: 400;
   line-height: 60px;
   color: #fff;
-  margin-top: -560px;
-  margin-left: 35px;
+  margin-top: -660px;
+  margin-left: 60px;
   margin-bottom: 30px;
 }
-
+.vintage_img {
+  margin-top: -12%;
+}
 .imsup_txt {
   font-family: Montserrat;
   font-size: 24px;
@@ -560,7 +587,8 @@ section {
   line-height: 29.26px;
   color: #fff;
   max-width: 467px;
-  padding: 20px;
+  padding: 0 0 0 60px;
+  margin-bottom: 30px;
 }
 
 .cart_tit {
@@ -608,7 +636,11 @@ section {
 }
 
 .prices {
+  background: url(./img/Vintage\ Vibes\ \ Collage\ Art\ 61\ 6.png);
   background: #000;
+}
+.span{
+  color: #D03D29;
 }
 
 .prices__top {
@@ -641,7 +673,7 @@ section {
   background: #363231;
   color: #fff;
   font-size: 20px;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-bottom: 25px;
 }
 
@@ -677,13 +709,15 @@ section {
   color: #fff;
 }
 
-
-
-
 .footer {
   background: #000;
 }
-
+.footer__tit{
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 35px;
+}
 .footer_tit {
   font-size: 45px;
   font-weight: 600;
@@ -724,11 +758,12 @@ input.button_footer {
   font-size: 20px;
   color: #fff;
   cursor: pointer;
+  padding-left: 30px;
 }
 
 button.red,
 input.red {
-  background: #D03D29;
+  background: #d03d29;
   transition: 0.3s;
   padding: 10px;
   cursor: pointer;
@@ -751,7 +786,6 @@ input.red {
   font-weight: 400;
   line-height: 24.38px;
   color: #fff;
-
 }
 
 .footer_icons {
@@ -770,4 +804,8 @@ input.red {
 
 .footer_w {
   margin-top: -1000px;
+}
+.four{
+  margin-left: 80%;
+  margin-top: -50px;
 }
